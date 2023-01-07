@@ -65,6 +65,11 @@ class _HomeScreenState extends State<HomeScreen> {
             ),
           ),
           RecentOrders(),
+          Column(
+            children: <Widget>[
+              Text('Nearby Resturants'),
+            ],
+          ),
         ],
       ),
     );
