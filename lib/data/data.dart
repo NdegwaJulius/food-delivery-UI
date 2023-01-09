@@ -45,15 +45,15 @@ final _restaurant2 = Restaurant(
 );
 final _restaurant3 = Restaurant(
   imageUrl: 'assets/images/restaurant3.jpg',
-  name: 'Restaurant 3',
+  name: 'KFC ',
   address: '10th St, Nyali',
   rating: 2,
   menu: [_burrito, _steak, _burger, _pizza, _salmon],
 );
 final _restaurant4 = Restaurant(
   imageUrl: 'assets/images/restaurant4.jpg',
-  name: 'Restaurant 4',
-  address: '200 Main St, Nairobi',
+  name: 'Blue Room',
+  address: 'Test Avenue, MSA',
   rating: 3,
   menu: [_burrito, _ramen, _pancakes, _salmon],
 );
@@ -71,31 +71,31 @@ final currentUser = User(
   name: 'Rebecca',
   orders: [
     Order(
-      date: 'Nov 10, 2019',
+      date: 'Jan 10, 2023',
       food: _steak,
       restaurant: _restaurant2,
       quantity: 1,
     ),
     Order(
-      date: 'Nov 8, 2019',
+      date: 'Nov 8, 2022',
       food: _ramen,
       restaurant: _restaurant0,
       quantity: 3,
     ),
     Order(
-      date: 'Nov 5, 2019',
+      date: 'Dec 5, 2022',
       food: _burrito,
       restaurant: _restaurant1,
       quantity: 2,
     ),
     Order(
-      date: 'Nov 2, 2019',
+      date: 'Jan 2, 2023',
       food: _salmon,
       restaurant: _restaurant3,
       quantity: 1,
     ),
     Order(
-      date: 'Nov 1, 2019',
+      date: 'Dec 1, 2022',
       food: _pancakes,
       restaurant: _restaurant4,
       quantity: 1,
@@ -103,31 +103,31 @@ final currentUser = User(
   ],
   cart: [
     Order(
-      date: 'Nov 11, 2019',
+      date: 'Nov 30, 2022',
       food: _burger,
       restaurant: _restaurant2,
       quantity: 2,
     ),
     Order(
-      date: 'Nov 11, 2019',
+      date: 'Oct 11, 2022',
       food: _pasta,
       restaurant: _restaurant2,
       quantity: 1,
     ),
     Order(
-      date: 'Nov 11, 2019',
+      date: 'Oct 21, 2022',
       food: _salmon,
       restaurant: _restaurant3,
       quantity: 1,
     ),
     Order(
-      date: 'Nov 11, 2019',
+      date: 'Dec 19, 2022',
       food: _pancakes,
       restaurant: _restaurant4,
       quantity: 3,
     ),
     Order(
-      date: 'Nov 11, 2019',
+      date: 'Nov 19, 2022',
       food: _burrito,
       restaurant: _restaurant1,
       quantity: 2,
